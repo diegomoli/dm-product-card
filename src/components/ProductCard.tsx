@@ -11,7 +11,6 @@ import styles from '../styles/styles.module.css';
 
 export interface PropsCard {
   product: Product;
-  // children?: ReactElement | ReactElement[];
   children: (args: ProductCardHandlers) => JSX.Element;
   className?: string;
   style?: CSSProperties;
